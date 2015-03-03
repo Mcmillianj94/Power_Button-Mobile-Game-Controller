@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		367FCF0B1AA18EA500F4A168 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 367FCF0A1AA18EA500F4A168 /* main.m */; };
+		367FCF0E1AA18EA500F4A168 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 367FCF0D1AA18EA500F4A168 /* AppDelegate.m */; };
+		367FCF111AA18EA500F4A168 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 367FCF101AA18EA500F4A168 /* GameScene.m */; };
+		367FCF131AA18EA500F4A168 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 367FCF121AA18EA500F4A168 /* GameScene.sks */; };
+		367FCF161AA18EA500F4A168 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 367FCF151AA18EA500F4A168 /* GameViewController.m */; };
+		367FCF191AA18EA500F4A168 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 367FCF171AA18EA500F4A168 /* Main.storyboard */; };
+		367FCF1B1AA18EA500F4A168 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 367FCF1A1AA18EA500F4A168 /* Images.xcassets */; };
+		367FCF1E1AA18EA500F4A168 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 367FCF1C1AA18EA500F4A168 /* LaunchScreen.xib */; };
+		367FCF2A1AA18EA600F4A168 /* PowerButtonIOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 367FCF291AA18EA600F4A168 /* PowerButtonIOSTests.m */; };
+		367FCF361AA18ED200F4A168 /* PowerButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 367FCF351AA18ED200F4A168 /* PowerButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		367FCF241AA18EA600F4A168 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 367FCEFD1AA18EA500F4A168 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 367FCF041AA18EA500F4A168;
+			remoteInfo = PowerButtonIOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		367FCF051AA18EA500F4A168 /* PowerButtonIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PowerButtonIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		367FCF091AA18EA500F4A168 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		367FCF0A1AA18EA500F4A168 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		367FCF0C1AA18EA500F4A168 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		367FCF0D1AA18EA500F4A168 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		367FCF0F1AA18EA500F4A168 /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		367FCF101AA18EA500F4A168 /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		367FCF121AA18EA500F4A168 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		367FCF141AA18EA500F4A168 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		367FCF151AA18EA500F4A168 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		367FCF181AA18EA500F4A168 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		367FCF1A1AA18EA500F4A168 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		367FCF1D1AA18EA500F4A168 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		367FCF231AA18EA600F4A168 /* PowerButtonIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PowerButtonIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		367FCF281AA18EA600F4A168 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		367FCF291AA18EA600F4A168 /* PowerButtonIOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PowerButtonIOSTests.m; sourceTree = "<group>"; };
+		367FCF341AA18ED200F4A168 /* PowerButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PowerButton.h; sourceTree = "<group>"; };
+		367FCF351AA18ED200F4A168 /* PowerButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PowerButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		367FCF021AA18EA500F4A168 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		367FCF201AA18EA600F4A168 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		367FCEFC1AA18EA500F4A168 = {
+			isa = PBXGroup;
+			children = (
+				367FCF071AA18EA500F4A168 /* PowerButtonIOS */,
+				367FCF261AA18EA600F4A168 /* PowerButtonIOSTests */,
+				367FCF061AA18EA500F4A168 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		367FCF061AA18EA500F4A168 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				367FCF051AA18EA500F4A168 /* PowerButtonIOS.app */,
+				367FCF231AA18EA600F4A168 /* PowerButtonIOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		367FCF071AA18EA500F4A168 /* PowerButtonIOS */ = {
+			isa = PBXGroup;
+			children = (
+				367FCF331AA18EB700F4A168 /* Power Button */,
+				367FCF0C1AA18EA500F4A168 /* AppDelegate.h */,
+				367FCF0D1AA18EA500F4A168 /* AppDelegate.m */,
+				367FCF0F1AA18EA500F4A168 /* GameScene.h */,
+				367FCF101AA18EA500F4A168 /* GameScene.m */,
+				367FCF121AA18EA500F4A168 /* GameScene.sks */,
+				367FCF141AA18EA500F4A168 /* GameViewController.h */,
+				367FCF151AA18EA500F4A168 /* GameViewController.m */,
+				367FCF171AA18EA500F4A168 /* Main.storyboard */,
+				367FCF1A1AA18EA500F4A168 /* Images.xcassets */,
+				367FCF1C1AA18EA500F4A168 /* LaunchScreen.xib */,
+				367FCF081AA18EA500F4A168 /* Supporting Files */,
+			);
+			path = PowerButtonIOS;
+			sourceTree = "<group>";
+		};
+		367FCF081AA18EA500F4A168 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				367FCF091AA18EA500F4A168 /* Info.plist */,
+				367FCF0A1AA18EA500F4A168 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		367FCF261AA18EA600F4A168 /* PowerButtonIOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				367FCF291AA18EA600F4A168 /* PowerButtonIOSTests.m */,
+				367FCF271AA18EA600F4A168 /* Supporting Files */,
+			);
+			path = PowerButtonIOSTests;
+			sourceTree = "<group>";
+		};
+		367FCF271AA18EA600F4A168 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				367FCF281AA18EA600F4A168 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		367FCF331AA18EB700F4A168 /* Power Button */ = {
+			isa = PBXGroup;
+			children = (
+				367FCF341AA18ED200F4A168 /* PowerButton.h */,
+				367FCF351AA18ED200F4A168 /* PowerButton.m */,
+			);
+			name = "Power Button";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		367FCF041AA18EA500F4A168 /* PowerButtonIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 367FCF2D1AA18EA600F4A168 /* Build configuration list for PBXNativeTarget "PowerButtonIOS" */;
+			buildPhases = (
+				367FCF011AA18EA500F4A168 /* Sources */,
+				367FCF021AA18EA500F4A168 /* Frameworks */,
+				367FCF031AA18EA500F4A168 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PowerButtonIOS;
+			productName = PowerButtonIOS;
+			productReference = 367FCF051AA18EA500F4A168 /* PowerButtonIOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		367FCF221AA18EA600F4A168 /* PowerButtonIOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 367FCF301AA18EA600F4A168 /* Build configuration list for PBXNativeTarget "PowerButtonIOSTests" */;
+			buildPhases = (
+				367FCF1F1AA18EA600F4A168 /* Sources */,
+				367FCF201AA18EA600F4A168 /* Frameworks */,
+				367FCF211AA18EA600F4A168 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				367FCF251AA18EA600F4A168 /* PBXTargetDependency */,
+			);
+			name = PowerButtonIOSTests;
+			productName = PowerButtonIOSTests;
+			productReference = 367FCF231AA18EA600F4A168 /* PowerButtonIOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		367FCEFD1AA18EA500F4A168 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Joshua;
+				TargetAttributes = {
+					367FCF041AA18EA500F4A168 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					367FCF221AA18EA600F4A168 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 367FCF041AA18EA500F4A168;
+					};
+				};
+			};
+			buildConfigurationList = 367FCF001AA18EA500F4A168 /* Build configuration list for PBXProject "PowerButtonIOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 367FCEFC1AA18EA500F4A168;
+			productRefGroup = 367FCF061AA18EA500F4A168 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				367FCF041AA18EA500F4A168 /* PowerButtonIOS */,
+				367FCF221AA18EA600F4A168 /* PowerButtonIOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		367FCF031AA18EA500F4A168 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				367FCF1E1AA18EA500F4A168 /* LaunchScreen.xib in Resources */,
+				367FCF1B1AA18EA500F4A168 /* Images.xcassets in Resources */,
+				367FCF131AA18EA500F4A168 /* GameScene.sks in Resources */,
+				367FCF191AA18EA500F4A168 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		367FCF211AA18EA600F4A168 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		367FCF011AA18EA500F4A168 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				367FCF161AA18EA500F4A168 /* GameViewController.m in Sources */,
+				367FCF361AA18ED200F4A168 /* PowerButton.m in Sources */,
+				367FCF0E1AA18EA500F4A168 /* AppDelegate.m in Sources */,
+				367FCF111AA18EA500F4A168 /* GameScene.m in Sources */,
+				367FCF0B1AA18EA500F4A168 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		367FCF1F1AA18EA600F4A168 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				367FCF2A1AA18EA600F4A168 /* PowerButtonIOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		367FCF251AA18EA600F4A168 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 367FCF041AA18EA500F4A168 /* PowerButtonIOS */;
+			targetProxy = 367FCF241AA18EA600F4A168 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		367FCF171AA18EA500F4A168 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				367FCF181AA18EA500F4A168 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		367FCF1C1AA18EA500F4A168 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				367FCF1D1AA18EA500F4A168 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		367FCF2B1AA18EA600F4A168 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		367FCF2C1AA18EA600F4A168 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		367FCF2E1AA18EA600F4A168 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PowerButtonIOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		367FCF2F1AA18EA600F4A168 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PowerButtonIOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		367FCF311AA18EA600F4A168 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PowerButtonIOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PowerButtonIOS.app/PowerButtonIOS";
+			};
+			name = Debug;
+		};
+		367FCF321AA18EA600F4A168 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PowerButtonIOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PowerButtonIOS.app/PowerButtonIOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		367FCF001AA18EA500F4A168 /* Build configuration list for PBXProject "PowerButtonIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				367FCF2B1AA18EA600F4A168 /* Debug */,
+				367FCF2C1AA18EA600F4A168 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		367FCF2D1AA18EA600F4A168 /* Build configuration list for PBXNativeTarget "PowerButtonIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				367FCF2E1AA18EA600F4A168 /* Debug */,
+				367FCF2F1AA18EA600F4A168 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		367FCF301AA18EA600F4A168 /* Build configuration list for PBXNativeTarget "PowerButtonIOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				367FCF311AA18EA600F4A168 /* Debug */,
+				367FCF321AA18EA600F4A168 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 367FCEFD1AA18EA500F4A168 /* Project object */;
+}
