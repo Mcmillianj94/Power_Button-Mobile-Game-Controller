@@ -11,3 +11,4 @@ Images for stages, vibrate when stage change.
 Wireframe Coming soon
 
 ###Links
+Wiki: https://github.com/Mcmillianj94/Power_Button-Mobile-Game-Controller/wiki
