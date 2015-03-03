@@ -17,13 +17,12 @@
 
 -(void)didMoveToView:(SKView *)view {
     
-    NSArray* stageColors = [[NSArray alloc] initWithObjects:[UIColor whiteColor],[UIColor blueColor],[UIColor redColor],
-                            [UIColor greenColor],[UIColor blackColor], nil];
+    NSArray* stageColors = [[NSArray alloc] initWithObjects:[UIColor whiteColor],[UIColor yellowColor],[UIColor orangeColor],
+                            [UIColor redColor],[UIColor blackColor], nil];
     
-    self.powerButton = [[PowerButton alloc] initWithRadius:20.0f numberOfStages:5 stageColors:stageColors];
+    self.powerButton = [[PowerButton alloc] initWithRadius:35.0f numberOfStages:5 stageColors:stageColors];
     self.powerButton.position = CGPointMake(self.size.width/2, self.size.height/2);
     [self addChild: self.powerButton];
-    
 }
 
 - (void)update:(NSTimeInterval)currentTime {
