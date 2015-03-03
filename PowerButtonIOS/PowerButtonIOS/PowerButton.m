@@ -44,21 +44,59 @@
 
 -(void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event{
     [super touchesEnded:touches withEvent:event];
-    NSLog(@"Stage %i", self.currentStage);
+    
+    //Call the Start actions method to preform an action based on the current stage
+    [self startActionForStage:self.currentStage];
+    [self resetButton];
+}
+
+//resets the button data when touches end.
+-(void)resetButton{
     self.isactive = false;
-    self.currentStage = 0;
+    self.currentStage = 1;
     self.powerButton.fillColor = self.powerButtonStageColors[0];
 }
 
+/*
+ Called With-In the update function in the GameScene Class
+ This method changes the currentStage only if the button is being
+ held. also changes the powerButton Color.
+*/
 -(void)updateStage{
     if (self.isactive == true) {
         if (self.currentStage < self.numberOfStages) {
-            if (self.currentStage > 0) {
-                self.powerButton.fillColor = self.powerButtonStageColors[self.currentStage];
-            }
+            self.powerButton.fillColor = self.powerButtonStageColors[self.currentStage];
             self.currentStage++;
-            NSLog(@"%i", self.currentStage);
         }
+    }
+}
+
+/*
+ This is the method called that houses all the actions
+ When the currentStage number is passed in it performs
+ the action related to the currentStage.
+*/
+-(void)startActionForStage: (int)stage{
+    int cStage = stage;
+    
+    switch (cStage) {
+        case 1:
+            NSLog(@"Stage one action");
+            break;
+        case 2:
+            NSLog(@"Stage Two action");
+            break;
+        case 3:
+            NSLog(@"Stage Three action");
+            break;
+        case 4:
+            NSLog(@"Stage Four action");
+            break;
+        case 5:
+            NSLog(@"Stage Five action");
+            break;
+        default:
+            break;
     }
 }
 @end
